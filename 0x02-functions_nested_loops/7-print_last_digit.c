@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * print_last_digit - return last digit
  * @n : number to check
@@ -14,6 +16,6 @@ int print_last_digit(int n)
 	else
 		nv = n % 10;
 
-	_putchar(nv + '0');
+	putchar(nv + '0');
 	return (nv);
 }
