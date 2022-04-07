@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_sign - check numers
@@ -13,17 +14,17 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		test = 1;
-		_putchar('+');
+		putchar('+');
 	}
 	else if (n == 0)
 	{
 		test = 0;
-		_putchar('0');
+		putchar('0');
 	}
 	else
 	{
 		test = -1;
-		_putchar('-');
+		putchar('-');
 	}
 
 	return (test);
