@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
@@ -31,12 +32,12 @@ while (h2 <= 2)
 			m1 = 0;
 			while (m1 <= 9)
 			{
-				_putchar('0' + h2);
-				_putchar('0' + h1);
-				_putchar(':');
-				_putchar('0' + m2);
-				_putchar('0' + m1);
-				_putchar('\n');
+				putchar('0' + h2);
+				putchar('0' + h1);
+				putchar(':');
+				putchar('0' + m2);
+				putchar('0' + m1);
+				putchar('\n');
 				m1++;
 			}
 			m2++;
